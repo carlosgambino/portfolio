@@ -4,38 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lernantino // Web Developer</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Carlos Ganhao | Web Developer</title>
   </head>
 
   <body>
-    <!-- main logo / nav -->
-    <header>
-      <h1>Carlos Ganhao</h1>
-      <nav></nav>
-    </header>
+   <!-- Navbar / Links -->
+   <nav class="navbar">
+    <div class="logo-title">Carlos Ganhao.</div>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/carlosganhao/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- hero banner -->
-    <section class="hero-banner">
-      <div>
-        <h2>Hi, I'm Carlos</h2>
-      </div>
+  <!-- Banner / Profile photo -->
+    <section class="profile-banner">
+      <img src="./images/CG.PNG" alt="Profile photo of Carlos Ganhao"/>
+      <h1>i build <span>pretty</span>things.</h1>
     </section>
 
+      <!-- Main Page - About Me / Work / Contact -->
     <main class="page-wrapper">
-      <!-- about me -->
-      <section class="page-section" id="about">
+      <!-- About me - left side bar -->
+      <section class="main-section" id="about">
         <h2>About Me</h2>
       </section>
+      <!-- About me - right side  -->
+      <div class="main-section" id="about-info">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quae
+          praesentium maxime quaerat possimus repellendus tempora
+          necessitatibus, eligendi voluptatum a in facilis nobis eius incidunt
+          iste officia explicabo ducimus? Repellendus..
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi
+          quas a voluptate, veritatis molestias odio magni ea consectetur odit
+          asperiores repudiandae eius blanditiis tempora quasi nihil velit
+          aliquid iusto!
+        </p>
+      </div>
 
-      <!-- portfolio container -->
-      <section class="page-section" id="work">
+      <!-- Portfolio introduction -->
+      <section class="main-section" id="work">
         <h2>Work</h2>
       </section>
+      <!-- Portfolio container - containing work examples -->
+      <div id="work-info">
+        <div class="main-grid" id="work-grid">
+          <!-- Create div's to hold work examples -->
+          <div class="main-grid" id="work1"></div>
+          <div class="main-grid" id="work2"></div>
+          <div class="main-grid" id="work3"></div>
+          <div class="main-grid" id="work4"></div>
+          <div class="main-grid" id="work5"></div>
+        </div>
+      </div>
+
+
+
+
 
       <!-- contact -->
       <section class="page-section contact" id="contact">
         <h2>Contact Me</h2>
+      </section>
+      <section id="contact-info">
+        <a href="https://github.com/carlosgambino" target="_blank">Github</a>
+        <a href="c_ganhao@me.com" target="_blank">Email</a>
+        <a href="#" target="_blank">Instagram</a>
       </section>
     </main>
   </body>
