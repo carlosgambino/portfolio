@@ -4,81 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/style.css" />
     <title>Carlos Ganhao | Web Developer</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
-   <!-- Navbar / Links -->
-   <nav class="navbar">
-    <div class="logo-title">Carlos Ganhao.</div>
-    <div class="navbar-links">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">My Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="https://www.linkedin.com/in/carlosganhao/" target="_blank">LinkedIn</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!-- Header  -->
+     <header class="header">
+    <!-- Nav Start  -->
+     <nav class="navbar">
+        <div class="logo-title">Carlos Ganhao.</div>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <li><a href="https://www.linkedin.com/in/carlosganhao/" target="_blank">LinkedIn</a></li> -->
+          </ul>
+        </div>
+      </nav>
+    <!-- Nav End  -->
+    </header>
+    <!-- Header End -->
 
-  <!-- Banner / Profile photo -->
-    <section class="profile-banner">
-      <img src="./images/CG.PNG" alt="Profile photo of Carlos Ganhao"/>
-      <h1>i build <span>pretty</span>things.</h1>
+    <!-- Hero Start -->
+    <section class="hero">
+      <div class="hero__container container">
+        <!-- Hero Content Start -->
+        <div class="hero__content">
+          <h1 class="hero__content-title">Hey, I'm Carlos.</h1>
+          <h2 class="hero__content-subtitle">
+            I build pretty things.
+          </h2>
+        </div>
+        <!-- Hero Content End -->
+      </div>
     </section>
+    <!-- Hero End -->
 
-      <!-- Main Page - About Me / Work / Contact -->
-    <main class="page-wrapper">
-      <!-- About me - left side bar -->
-      <section class="main-section" id="about">
-        <h2>About Me</h2>
-      </section>
-      <!-- About me - right side  -->
-      <div class="main-section" id="about-info">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quae
+    <!-- Main Start -->
+    <main class="main container">
+
+      <!-- About Start -->
+      <section class="about section" id="about">
+
+        <aside class="about__title-box section__left">
+          <h2 class="about__title section__title">About Me</h2>
+        </aside>
+
+        <div class="about__text section__right">
+          <p class="about__copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quae
           praesentium maxime quaerat possimus repellendus tempora
           necessitatibus, eligendi voluptatum a in facilis nobis eius incidunt
           iste officia explicabo ducimus? Repellendus..
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi
+          </p>
+          <p class="about__copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi
           quas a voluptate, veritatis molestias odio magni ea consectetur odit
           asperiores repudiandae eius blanditiis tempora quasi nihil velit
           aliquid iusto!
-        </p>
-      </div>
-
-      <!-- Portfolio introduction -->
-      <section class="main-section" id="work">
-        <h2>Work</h2>
-      </section>
-      <!-- Portfolio container - containing work examples -->
-      <div id="work-info">
-        <div class="main-grid" id="work-grid">
-          <!-- Create div's to hold work examples -->
-          <div class="main-grid" id="work1"></div>
-          <div class="main-grid" id="work2"></div>
-          <div class="main-grid" id="work3"></div>
-          <div class="main-grid" id="work4"></div>
-          <div class="main-grid" id="work5"></div>
+          </p>
         </div>
+
+      </section>
+      <!-- About End -->
+
+      <!-- Works Start -->
+      <section class="work section" id="work">
+        
+        <aside class="work__title-box section__left">
+          <h2 class="work__title section__title">Work</h2>
+        </aside>
+        
+        <div class="work__items section__right">
+
+          <div class="work__item horiseon">
+            <div class="work__content">
+              <h3 class="work__item-title">Horiseon</h3>
+              <p class="work__item-text">Refactored HTML, CSS for a project.</p>
+            </div>
+            <a class="work__link" href="#"></a>
+          </div>
+
+          <div class="work__item preworkstudy">
+            <div class="work__content">
+              <h3 class="work__item-title">Prework Study</h3>
+              <p class="work__item-text">Place holder.</p>
+            </div>
+            <a class="work__link" href="#"></a>
+          </div>
+
+          <div class="work__item placeholder1">
+            <div class="work__content">
+              <h3 class="work__item-title">Place Holder</h3>
+              <p class="work__item-text">Place Holder</p>
+            </div>
+            <a class="work__link" href="#"></a>
+          </div>
+
+          <div class="work__item placeholder2">
+            <div class="work__content">
+              <h3 class="work__item-title">Place Holder</h3>
+              <p class="work__item-text">Place Holder.</p>
+            </div>
+            <a class="work__link" href="#"></a>
+          </div>
+
+          <div class="work__item placeholder3">
+            <div class="work__content">
+              <h3 class="work__item-title">Place Holder</h3>
+              <p class="work__item-text">Place Holder.</p>
+            </div>
+            <a class="work__link" href="#"></a>
+          </div>
+
+
+        </div>
+        
+      </section>
+      <!-- Works End -->
+
+    </main>
+    <!-- Main End -->
+
+    <!-- Contact Start -->
+    <footer class="contact footer" id="contact">
+
+      <div class="contact__container container section">
+
+        <aside class="contact__title-box section__left">
+          <h2 class="contact__title section__title">Contact Me</h2>
+        </aside>
+  
+        <div class="contact__inner section__right">
+          <ul class="contact__items">
+            <li class="contact__item">
+              <a class="contact__item-link" target="_blank" href="mailto:c_ganhao@me.com">Email</a>
+            </li>
+            <li class="contact__item">
+              <a class="contact__item-link" target="_blank" href="https://github.com/carlosgambino">GitHub</a>
+            </li>
+            <li class="contact__item">
+              <a class="contact__item-link" target="_blank" href="https://Instagram.com/iamcarlosgambino"> Instagram</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
+    </footer>
+    <!-- Contact End -->
 
-
-
-
-      <!-- contact -->
-      <section class="page-section contact" id="contact">
-        <h2>Contact Me</h2>
-      </section>
-      <section id="contact-info">
-        <a href="https://github.com/carlosgambino" target="_blank">Github</a>
-        <a href="c_ganhao@me.com" target="_blank">Email</a>
-        <a href="#" target="_blank">Instagram</a>
-      </section>
-    </main>
   </body>
 </html>
