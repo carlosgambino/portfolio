@@ -300,6 +300,16 @@ footer{
     text-align: left;
   }
 
+  .hero_content_h1{
+    font-size: 100px;
+    color: var(--main);
+  }
+
+  .hero_content_h2{
+    font-size: 30px;
+    color: var(--main);
+  }
+
   .contact_items{
     justify-content: center;
   }
@@ -327,7 +337,7 @@ footer{
   }
 
   .hero{
-    margin-top: -20px;
+    margin-top: 8px;
   }
 
   .section{
@@ -335,12 +345,12 @@ footer{
   }
 
   .hero_content_h1{
-    font-size: 25px;
+    font-size: 100px;
     color: var(--main);
   }
 
   .hero_content_h2{
-    font-size: 15px;
+    font-size: 30px;
     color: var(--main);
   }
 
@@ -349,7 +359,7 @@ footer{
   }
 
   .work_item_title{
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .contact_items{
