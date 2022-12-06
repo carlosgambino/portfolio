@@ -25,14 +25,14 @@ h3,
 h4,
 h5,
 h6,
-a,
-.logo{
+a{
   margin: 0;
   font-family: "Lora", serif;
   text-transform: lowercase;
   letter-spacing: 3px;
   font-weight: lighter;
   text-decoration: none;
+
 }
 
 ol, ul, menu, a{
@@ -42,12 +42,6 @@ ol, ul, menu, a{
 p{
   margin: 0;
 }
-
-/* img{
-  display: block;
-  width: 100%;
-  max-width: 100%;
-} */
 
 .container{
   width: 100%;
@@ -91,8 +85,11 @@ p{
   height: 100px;
 }
 
-.logo{
-  font-size: 40px;
+.nav_logo{
+  height: 100%;
+  width: 100px;
+  max-height: auto;
+  display: inline-block;
   margin: 35px;
   animation: fadeInRight 1.2s ease-in-out;
 }
@@ -131,10 +128,10 @@ p{
 
 /* Hero Start */
 .hero{
-  background-image: url('../images/hero_bg.png');
+  background-image: url('../images/hero_bg.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 1100px;
+  background-position: right;
   height: 500px;
   margin-top: 5px;
   display: flex;
@@ -151,6 +148,7 @@ p{
   font-size: 100px;
   font-weight: 700;
   padding-bottom: 10px;
+  color: var(--contrast);
 }
 
 .hero_content_h2{
@@ -332,10 +330,12 @@ footer{
 
   .hero_content_h1{
     font-size: 25px;
+    color: var(--main);
   }
 
   .hero_content_h2{
     font-size: 15px;
+    color: var(--main);
   }
 
   .work_content{
