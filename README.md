@@ -24,7 +24,7 @@ The links in the header will take you to the relevant sections in the web page.
 
 ## Screenshot
 
-![portfolio demo](../portfolio/images/personal_portfolio.gif)
+![portfolio demo](../portfolio/images/Portfolio_snapshot.jpg)
 
 ## License
 
