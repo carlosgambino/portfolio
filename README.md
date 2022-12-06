@@ -8,7 +8,7 @@ Some of the area covered during the build of this Portfolio are:
 
 - Using Semantic HTML 
 - Comments in HTML & CSS
-- Use of Flexboxes  
+- Use of Flexbox  
 - Use of Grids
 - Use of CSS variables
 - Build a fully responsive web app
@@ -24,7 +24,7 @@ The links in the header will take you to the relevant sections in the web page.
 
 ## Screenshot
 
-![portfolio demo](../portfolio/images/Portfolio_snapshot.jpg)
+![alt text](./images/Portfolio_snapshot.jpg)
 
 ## License
 
