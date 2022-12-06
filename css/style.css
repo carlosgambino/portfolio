@@ -234,15 +234,15 @@ img{
 }
 
 .work_item.placeholder1{
-  background-image: url("#");
+  background-image: url("../images/insta_image.png");
 }
 
 .work_item.placeholder2{
-  background-image: url("#");
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 .work_item.placeholder3{
-  background-image: url("#");
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 /* Work End  */
 
